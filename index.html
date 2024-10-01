@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraise with Dig</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="giving" id="giving-section">
+        <div class="giving-text">
+            <h5>It's DIGs-giving. Try our limited-time stuffing or grab a turkey for the table.</h5>
+        </div>
+        <div class="giving-close">
+            <button onclick="closeGivingSection()">x</button>
+        </div>
+    </section>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo DIG">
+            </div>
+            <div class="hamburger-menu" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">Contact</a></li>
+                <button class="cta-button-navbar">Order Now</button>
+        </div>
+                <div class="close-menu" onclick="toggleMenu()">&times;</div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Fundraise with Dig</h2>
+            <p>We’ll donate 50% of proceeds to your organization.</p>
+            <button class="cta-button">Make a difference</button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/team.png" alt="Fundraise with DIG team">
+        </div>
+    </section>
+
+    <section class="fundraising-container">
+        <div class="fundraising-header">
+            <h2>Scratch-Cooked for a Cause</h2>
+            <p>DIG's Restaurant Fundraising</p>
+        </div>
+    
+        <section class="fundraising-stats">
+            <div class="stat">
+                <h3>50%</h3>
+                <p>Event sales given <br>back to your organization</p>
+            </div>
+            <div class="dot-icon"></div>
+            <div class="stat">
+                <h3>$8,600</h3>
+                <p>Raised together</p>
+            </div>
+            <div class="dot-icon"></div>
+            <div class="stat">
+                <h3>85</h3>
+                <p>Fundraisers hosted</p>
+            </div>
+        </section>
+    
+        <section class="fundraising-info">
+            <div class="fundraising-text">
+                <h3>Visit Your Local Dig to Order Dine-In or Dine-Out</h3>
+                <p class="fundraising-paragraph">When checking out at the register, let the DIG team member know that you're here for the fundraiser and we'll make sure your meal gets tracked as a part of the event.</p>
+                <button class="cta-button">Make a Difference</button>
+                <p class="link-text">Click <a href="#" class="link">here</a> for all fundraising guidelines.</p>
+            </div>
+            <div class="fundraising-image">
+                <img src="assets/pickup.png" alt="Pick up">
+            </div>
+        </section>
+    </section>
+
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <p class="subtext">Organize fundraisers in your community. <br>Request a date for your organization. 5 minutes is all it takes!</p>
+        <div class="steps">
+            <div class="step">
+                <img src="assets/calendar-icon.png" alt="Book a date">
+                <h3>Book a Date</h3>
+                <p>Request your fundraiser's date, time, and location.</p>
+            </div>
+            <div class="step">
+                <img src="assets/share-icon.png" alt="Spread the word">
+                <h3>Spread the Word</h3>
+                <p>Get the word out and confirm your meal.</p>
+            </div>
+            <div class="step">
+                <img src="assets/eat-icon.png" alt="Eat & Raise">
+                <h3>Eat & Raise</h3>
+                <p>Use your unique promo code on fundraising day.</p>
+            </div>
+            <div class="step">
+                <img src="assets/money-icon.png" alt="Receive 50%">
+                <h3>Receive 50%</h3>
+                <p>Receive 50% of proceeds to your organization.</p>
+            </div>
+        </div>
+        <button class="cta-button order-button">Make a Difference</button>
+    </section>
+
+    <section class="review-section">
+        <div class="stars">
+            <img src="assets/stars.png" alt="review stars">
+        </div>
+        <h3>Review About The Fundraising</h3>
+        <p class="review-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat viverra lorem, au interdum leo rutrum eget. Curabitur malesuada dui sed risus malesuada tempor.
+        </p>
+        <p class="review-author">Name of the person</p>
+        <div class="review-navigation">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    
+    <section class="locations">
+        <div class="location-grid">
+            <div class="location">
+                <img src="assets/bleecker.png" alt="Dig on Bleecker">
+                <p>Dig on Bleecker</p>
+            </div>
+            <div class="location">
+                <img src="assets/georgetown.png" alt="Dig Georgetown">
+                <p>Dig Georgetown</p>
+            </div>
+            <div class="location">
+                <img src="assets/stamford.png" alt="Dig Stamford">
+                <p>Dig Stamford</p>
+            </div>
+            <div class="other-locations">
+                <div class="more-locations">
+                    <img src="assets/28.png" alt="+28 locations">
+                    <p>Other Locations</p>
+                </div>
+                <p class="location-description">In New York City, Brooklyn, Rye Brook, Stamford, Philadelphia, Bridgewater, and Boston</p>
+            </div>
+        </div>
+    
+        <div class="neighborhood-info">
+            <h2>Your Neighborhood. Your Kitchen.</h2>
+            <p>Every DIG is a part of its neighborhood. Each location is led by a local chef, serving fresh seasonal ingredients.</p>
+            <button class="cta-button-secondary">Find a DIG</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Dig Restaurant <br>Group LLC. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.diginn.com/privacy-policy" target="_blank">Privacy Policy</a>
+                <a href="https://www.diginn.com/terms-of-use" target="_blank">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
